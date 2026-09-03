@@ -3,13 +3,10 @@ uvicorn==0.29.0
 langgraph==0.1.9
 langchain==0.2.3
 langchain-community==0.2.3
-faiss-cpu==1.8.0
+faiss-cpu==1.12.0
 scikit-learn==1.5.0
 streamlit==1.35.0
 pandas==2.2.2
 python-dotenv==1.0.1
 ollama==0.2.1
-pydantic==2.7.2git add .
-git commit -m "chore: initial repo skeleton and dependencies"
-git push origin main
-git push origin dev
+pydantic==2.7.4
