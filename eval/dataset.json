@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q001",
+    "question": "In what year were Nikola Tesla's AC induction motor and related polyphase AC patents licensed by Westinghouse Electric?",
+    "expected_keywords": ["1888"],
+    "expected_source_doc": "doc_01_nikola_tesla.txt"
+  },
+  {
+    "id": "q002",
+    "question": "On what date did Galileo demonstrate one of his early telescopes to Venetian lawmakers?",
+    "expected_keywords": ["25 August 1609"],
+    "expected_source_doc": "doc_02_galileo_galilei.txt"
+  },
+  {
+    "id": "q003",
+    "question": "What name did Dmitri Mendeleev use to refer to the predicted element that was later identified as germanium?",
+    "expected_keywords": ["ekasilicon"],
+    "expected_source_doc": "doc_03_dmitri_mendeleev.txt"
+  },
+  {
+    "id": "q004",
+    "question": "What disease did Erwin Schrödinger die of in Vienna in 1961?",
+    "expected_keywords": ["tuberculosis"],
+    "expected_source_doc": "doc_04_erwin_schrodinger.txt"
+  },
+  {
+    "id": "q005",
+    "question": "What nickname was Thomas Edison known by because of his work at Menlo Park?",
+    "expected_keywords": ["The Wizard of Menlo Park"],
+    "expected_source_doc": "doc_11_thomas_edison.txt"
+  }
+]
