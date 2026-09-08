@@ -12,31 +12,21 @@ DB_PATH = "logs/runs.db"
 # ─────────────────────────────────────────────────────────────
 # MOCK PIPELINE — replace with real graph.invoke() after Sprint 1 merge
 # ─────────────────────────────────────────────────────────────
-def mock_graph_invoke(question: str) -> dict:
-    """
-    Fake pipeline response for testing the eval loop.
-    Returns the same shape as the real graph.invoke().
-    DELETE THIS and replace with the real call once feature/agent-pipeline merges.
-    """
-    return {
-        "answer": f"Mock answer for: {question}",
-        "retrieved_docs": ["Mock retrieved chunk. This is test content."]
-    }
 
 # ─────────────────────────────────────────────────────────────
 # REAL PIPELINE — uncomment after feature/agent-pipeline merges
 # ─────────────────────────────────────────────────────────────
-# from langchain_community.vectorstores import FAISS
-# from langchain_community.embeddings import OllamaEmbeddings
-# from agents.graph import build_graph
-#
-# _embeddings = OllamaEmbeddings(model="qwen3:1.7b")
-# _db = FAISS.load_local("data/faiss_index", _embeddings, allow_dangerous_deserialization=True)
-# _graph = build_graph(_db)
-#
-# def run_pipeline(question: str) -> dict:
-#     result = _graph.invoke({"question": question})
-#     return {"answer": result["answer"], "retrieved_docs": result["retrieved_docs"]}
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import OllamaEmbeddings
+from agents.graph import build_graph
+
+_embeddings = OllamaEmbeddings(model="qwen3:1.7b")
+_db = FAISS.load_local("data/faiss_index", _embeddings, allow_dangerous_deserialization=True)
+_graph = build_graph(_db)
+
+def run_pipeline(question: str) -> dict:
+    result = _graph.invoke({"question": question})
+    return {"answer": result["answer"], "retrieved_docs": result["retrieved_docs"]}
 
 def setup_database(conn: sqlite3.Connection):
     conn.execute("""
@@ -76,7 +66,7 @@ def run_eval(version: str):
         start = time.time()
         
         # Run the pipeline (swap mock → real after Sprint 1 merge)
-        pipeline_result = mock_graph_invoke(item["question"])
+        pipeline_result = run_pipeline(item["question"])
         # Real call (uncomment after merge):
         # pipeline_result = run_pipeline(item["question"])
         
