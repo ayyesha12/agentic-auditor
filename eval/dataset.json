@@ -33,31 +33,31 @@
     "id": "q006",
     "question": "Who was the daughter of Ernest Rutherford that married Ralph Fowler?",
     "expected_keywords": ["Eileen Mary"],
-    "expected_source_doc": "doc_06_ernest_rutherford.txt"
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
   },
   {
     "id": "q007",
     "question": "J. J. Thomson measured the charge of the electron to be what value in 1899?",
     "expected_keywords": ["6.8", "esu"],
-    "expected_source_doc": "doc_07_jj_thomson.txt"
+    "expected_source_doc": "doc_06_j.j._thomson.txt"
   },
   {
     "id": "q008",
     "question": "What is the Latin title of Carl Linnaeus's first edition work published in the Netherlands?",
     "expected_keywords": ["Systema Naturae"],
-    "expected_source_doc": "doc_08_carl_linnaeus.txt"
+    "expected_source_doc": "doc_07_carl_linnaeus.txt"
   },
   {
     "id": "q009",
     "question": "In what year did Antoine Lavoisier recognize hydrogen as an element?",
     "expected_keywords": ["1783"],
-    "expected_source_doc": "doc_09_antoine_lavoisier.txt"
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
   },
   {
     "id": "q010",
     "question": "What was the name of Marie Curie's daughter who was born in 1897?",
     "expected_keywords": ["Irène Joliot-Curie"],
-    "expected_source_doc": "doc_10_marie_curie.txt"
+    "expected_source_doc": "doc_09_marie_curie.txt"
   },
   {
     "id": "q011",
@@ -93,31 +93,31 @@
     "id": "q016",
     "question": "Ernest Rutherford coined which term to describe the time required for half a radioactive sample to decay?",
     "expected_keywords": ["half-life"],
-    "expected_source_doc": "doc_06_ernest_rutherford.txt"
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
   },
   {
     "id": "q017",
     "question": "What was the name of the Manchester suburb where J. J. Thomson lived on Wilmslow Road?",
     "expected_keywords": ["Withington"],
-    "expected_source_doc": "doc_07_jj_thomson.txt"
+    "expected_source_doc": "doc_06_j._j._thomson.txt"
   },
   {
     "id": "q018",
     "question": "Which giant tree was the Latinate name 'Linnæus' derived from?",
     "expected_keywords": ["lime tree"],
-    "expected_source_doc": "doc_08_carl_linnaeus.txt"
+    "expected_source_doc": "doc_07_carl_linnaeus.txt"
   },
   {
     "id": "q019",
     "question": "What is the name of the tax-farming financial company Lavoisier joined at age 26?",
     "expected_keywords": ["Ferme générale"],
-    "expected_source_doc": "doc_09_antoine_lavoisier.txt"
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
   },
   {
     "id": "q020",
     "question": "Marie Curie was the first woman to become a professor at which university?",
     "expected_keywords": ["University of Paris"],
-    "expected_source_doc": "doc_10_marie_curie.txt"
+    "expected_source_doc": "doc_09_marie_curie.txt"
   },
   {
     "id": "q021",
@@ -153,31 +153,31 @@
     "id": "q026",
     "question": "What element with atomic number 104 was named after Ernest Rutherford?",
     "expected_keywords": ["rutherfordium"],
-    "expected_source_doc": "doc_06_ernest_rutherford.txt"
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
   },
   {
     "id": "q027",
     "question": "What was the nickname of J. J. Thomson's atomic model?",
     "expected_keywords": ["plum pudding model"],
-    "expected_source_doc": "doc_07_jj_thomson.txt"
+    "expected_source_doc": "doc_06_j._j._thomson.txt"
   },
   {
     "id": "q028",
     "question": "On what date in May was Carl Linnaeus born (Gregorian calendar)?",
     "expected_keywords": ["23 May"],
-    "expected_source_doc": "doc_08_carl_linnaeus.txt"
+    "expected_source_doc": "doc_07_carl_linnaeus.txt"
   },
   {
     "id": "q029",
     "question": "What was the name of Antoine Lavoisier's wife?",
     "expected_keywords": ["Marie-Anne Pierrette Paulze"],
-    "expected_source_doc": "doc_09_antoine_lavoisier.txt"
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
   },
   {
     "id": "q030",
     "question": "Which radioactive element did Marie Curie name after her native country?",
     "expected_keywords": ["polonium"],
-    "expected_source_doc": "doc_10_marie_curie.txt"
+    "expected_source_doc": "doc_09_marie_curie.txt"
   },
   {
     "id": "q031",
@@ -214,13 +214,13 @@
     "id": "q036",
     "question": "What was Rutherford's famous comparison for the 'incredible' event of a 15-inch shell bouncing off paper?",
     "expected_keywords": ["it came back and hit you"],
-    "expected_source_doc": "doc_06_ernest_rutherford.txt"
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
   },
   {
     "id": "q037",
     "question": "Why did J. J. Thomson prefer the term 'corpuscle' over 'electron'?",
     "expected_keywords": ["it is my own child, and I have a kind of parental affection for it"],
-    "expected_source_doc": "doc_07_jj_thomson.txt"
+    "expected_source_doc": "doc_06_j._j._thomson.txt"
   },
 {
     "id": "q038",
@@ -232,13 +232,13 @@
     "id": "q039",
     "question": "What phrase did Lavoisier use in his 'Traité Élémentaire de Chimie' to describe the conservation of matter?",
     "expected_keywords": ["Nothing is lost, nothing is created, everything is transformed"],
-    "expected_source_doc": "doc_09_antoine_lavoisier.txt"
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
   },
   {
     "id": "q040",
     "question": "How did L. Pearce Williams describe the impact of the Curies' work on radium?",
     "expected_keywords": ["epoch-making"],
-    "expected_source_doc": "doc_10_marie_curie.txt"
+    "expected_source_doc": "doc_09_marie_curie.txt"
   },
   {
     "id": "q041",
@@ -266,9 +266,9 @@
   },
   {
     "id": "q045",
-    "question": "What was the serial number of the Enigma machine that Alan Turing cracked in Hut 8?",
+    "question": "What was Pasteur responsible for?",
     "expected_keywords": ["INSUFFICIENT CONTEXT"],
-    "expected_source_doc": "doc_ Alan Turing snippet provided"
+    "expected_source_doc": "doc_12_louis_pasteur.txt"
   },
   {
     "id": "q046",
