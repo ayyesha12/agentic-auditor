@@ -1,32 +1,304 @@
 [
   {
     "id": "q001",
+    "question": "What was the name of Nikola Tesla's father?",
+    "expected_keywords": ["Milutin Tesla"],
+    "expected_source_doc": "doc_01_nikola_tesla.txt"
+  },
+  {
+    "id": "q002",
+    "question": "Where was Galileo Galilei born?",
+    "expected_keywords": ["Pisa"],
+    "expected_source_doc": "doc_02_galileo_galilei.txt"
+  },
+  {
+    "id": "q003",
+    "question": "Dmitri Mendeleev was the youngest of how many siblings?",
+    "expected_keywords": ["17"],
+    "expected_source_doc": "doc_03_dmitri_mendeleev.txt"
+  },
+  {
+    "id": "q004",
+    "question": "In what year did Erwin Schrödinger share the Nobel Prize in Physics?",
+    "expected_keywords": ["1933"],
+    "expected_source_doc": "doc_04_erwin_schrodinger.txt"
+  },
+   {
+    "id": "q005",
+    "question": "How many patents did Thomas Edison register in the United States?",
+    "expected_keywords": ["1,093"],
+    "expected_source_doc": "doc_11_thomas_edison.txt"
+  },
+  {
+    "id": "q006",
+    "question": "Who was the daughter of Ernest Rutherford that married Ralph Fowler?",
+    "expected_keywords": ["Eileen Mary"],
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
+  },
+  {
+    "id": "q007",
+    "question": "J. J. Thomson measured the charge of the electron to be what value in 1899?",
+    "expected_keywords": ["6.8", "esu"],
+    "expected_source_doc": "doc_06_j.j._thomson.txt"
+  },
+  {
+    "id": "q008",
+    "question": "What is the Latin title of Carl Linnaeus's first edition work published in the Netherlands?",
+    "expected_keywords": ["Systema Naturae"],
+    "expected_source_doc": "doc_07_carl_linnaeus.txt"
+  },
+  {
+    "id": "q009",
+    "question": "In what year did Antoine Lavoisier recognize hydrogen as an element?",
+    "expected_keywords": ["1783"],
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
+  },
+  {
+    "id": "q010",
+    "question": "What was the name of Marie Curie's daughter who was born in 1897?",
+    "expected_keywords": ["Irène Joliot-Curie"],
+    "expected_source_doc": "doc_09_marie_curie.txt"
+  },
+  {
+    "id": "q011",
+    "question": "Nikola Tesla's mother, Đuka Mandić, had a talent for memorizing what type of poems?",
+    "expected_keywords": ["Serbian epic poems"],
+    "expected_source_doc": "doc_01_nikola_tesla.txt"
+  },
+  {
+    "id": "q012",
+    "question": "How many children did Galileo father out of wedlock with Marina Gamba?",
+    "expected_keywords": ["three"],
+    "expected_source_doc": "doc_02_galileo_galilei.txt"
+  },
+  {
+    "id": "q013",
+    "question": "Which predicted element did Mendeleev call 'ekasilicon'?",
+    "expected_keywords": ["germanium"],
+    "expected_source_doc": "doc_03_dmitri_mendeleev.txt"
+  },
+  {
+    "id": "q014",
+    "question": "Erwin Schrödinger died of what disease in 1961?",
+    "expected_keywords": ["tuberculosis"],
+    "expected_source_doc": "doc_04_erwin_schrodinger.txt"
+  },
+    {
+    "id": "q015",
+    "question": "Who was the student that took the famous Photo 51 while working with Rosalind Franklin at King's College London?",
+    "expected_keywords": ["Raymond Gosling"],
+    "expected_source_doc": "doc_12_rosalind_franklin.txt"
+  },
+  {
+    "id": "q016",
+    "question": "Ernest Rutherford coined which term to describe the time required for half a radioactive sample to decay?",
+    "expected_keywords": ["half-life"],
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
+  },
+  {
+    "id": "q017",
+    "question": "What was the name of the Manchester suburb where J. J. Thomson lived on Wilmslow Road?",
+    "expected_keywords": ["Withington"],
+    "expected_source_doc": "doc_06_j._j._thomson.txt"
+  },
+  {
+    "id": "q018",
+    "question": "Which giant tree was the Latinate name 'Linnæus' derived from?",
+    "expected_keywords": ["lime tree"],
+    "expected_source_doc": "doc_07_carl_linnaeus.txt"
+  },
+  {
+    "id": "q019",
+    "question": "What is the name of the tax-farming financial company Lavoisier joined at age 26?",
+    "expected_keywords": ["Ferme générale"],
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
+  },
+  {
+    "id": "q020",
+    "question": "Marie Curie was the first woman to become a professor at which university?",
+    "expected_keywords": ["University of Paris"],
+    "expected_source_doc": "doc_09_marie_curie.txt"
+  },
+  {
+    "id": "q021",
+    "question": "What name did Tesla give to his wirelessly controlled boat?",
+    "expected_keywords": ["telautomaton"],
+    "expected_source_doc": "doc_01_nikola_tesla.txt"
+  },
+  {
+    "id": "q022",
+    "question": "Who was the pope that Galileo's book 'Dialogue Concerning the Two Chief World Systems' appeared to satirize?",
+    "expected_keywords": ["Pope Urban VIII"],
+    "expected_source_doc": "doc_02_galileo_galilei.txt"
+  },
+  {
+    "id": "q023",
+    "question": "What percentage standard strength of vodka is Mendeleev falsely credited with setting?",
+    "expected_keywords": ["40%"],
+    "expected_source_doc": "doc_03_dmitri_mendeleev.txt"
+  },
+  {
+    "id": "q024",
+    "question": "In which city is the Dublin Institute for Advanced Studies located?",
+    "expected_keywords": ["Dublin"],
+    "expected_source_doc": "doc_04_erwin_schrodinger.txt"
+  },
+    {
+    "id": "q025",
+    "question": "Niels Bohr predicted the properties of which zirconium-like element, eventually named after the Latin name for Copenhagen?",
+    "expected_keywords": ["hafnium"],
+    "expected_source_doc": "doc_14_neils_bohr.txt"
+  },
+  {
+    "id": "q026",
+    "question": "What element with atomic number 104 was named after Ernest Rutherford?",
+    "expected_keywords": ["rutherfordium"],
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
+  },
+  {
+    "id": "q027",
+    "question": "What was the nickname of J. J. Thomson's atomic model?",
+    "expected_keywords": ["plum pudding model"],
+    "expected_source_doc": "doc_06_j._j._thomson.txt"
+  },
+  {
+    "id": "q028",
+    "question": "On what date in May was Carl Linnaeus born (Gregorian calendar)?",
+    "expected_keywords": ["23 May"],
+    "expected_source_doc": "doc_07_carl_linnaeus.txt"
+  },
+  {
+    "id": "q029",
+    "question": "What was the name of Antoine Lavoisier's wife?",
+    "expected_keywords": ["Marie-Anne Pierrette Paulze"],
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
+  },
+  {
+    "id": "q030",
+    "question": "Which radioactive element did Marie Curie name after her native country?",
+    "expected_keywords": ["polonium"],
+    "expected_source_doc": "doc_09_marie_curie.txt"
+  },
+  {
+    "id": "q031",
+    "question": "What was the name of the ship C. V. Raman was on when he contemplated the blue color of the Mediterranean Sea in September 1921?",
+    "expected_keywords": ["S. S. Narkunda"],
+    "expected_source_doc": "doc_20_cv_raman.txt"
+  },
+   {
+    "id": "q032",
+    "question": "Who was the student that took the famous Photo 51 while working with Rosalind Franklin at King's College London?",
+    "expected_keywords": ["Raymond Gosling"],
+    "expected_source_doc": "doc_12_rosalind_franklin.txt"
+  },
+  {
+    "id": "q033",
+    "question": "What remark did Mendeleev make regarding the use of petroleum as a fuel?",
+    "expected_keywords": ["akin to firing up a kitchen stove with bank notes"],
+    "expected_source_doc": "doc_03_dmitri_mendeleev.txt"
+  },
+  {
+    "id": "q034",
+    "question": "What did Schrödinger say regarding the doctrine of the Upanishads and the unification of minds?",
+    "expected_keywords": ["truth there is only one mind"],
+    "expected_source_doc": "doc_04_erwin_schrodinger.txt"
+  },
+  {
+    "id": "q035",
+    "question": "Niels Bohr predicted the properties of which zirconium-like element, eventually named after the Latin name for Copenhagen?",
+    "expected_keywords": ["hafnium"],
+    "expected_source_doc": "doc_14_neils_bohr.txt"
+  },
+
+  {
+    "id": "q036",
+    "question": "What was Rutherford's famous comparison for the 'incredible' event of a 15-inch shell bouncing off paper?",
+    "expected_keywords": ["it came back and hit you"],
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
+  },
+  {
+    "id": "q037",
+    "question": "Why did J. J. Thomson prefer the term 'corpuscle' over 'electron'?",
+    "expected_keywords": ["it is my own child, and I have a kind of parental affection for it"],
+    "expected_source_doc": "doc_06_j._j._thomson.txt"
+  },
+{
+    "id": "q038",
+    "question": "According to the document, in what year were the last three of the seven Mendel genes finally identified in the pea genome?",
+    "expected_keywords": ["2025"],
+    "expected_source_doc": "doc_15_gregor_mendal.txt"
+  },
+  {
+    "id": "q039",
+    "question": "What phrase did Lavoisier use in his 'Traité Élémentaire de Chimie' to describe the conservation of matter?",
+    "expected_keywords": ["Nothing is lost, nothing is created, everything is transformed"],
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
+  },
+  {
+    "id": "q040",
+    "question": "How did L. Pearce Williams describe the impact of the Curies' work on radium?",
+    "expected_keywords": ["epoch-making"],
+    "expected_source_doc": "doc_09_marie_curie.txt"
+  },
+  {
+    "id": "q041",
+    "question": "What was the exact mathematical value of the speed of light as calculated by Galileo in his 1638 experiment?",
+    "expected_keywords": ["INSUFFICIENT CONTEXT"],
+    "expected_source_doc": "doc_02_galileo_galilei.txt"
+  },
+  {
+    "id": "q042",
+    "question": "What was the specific brand of cigarettes Nikola Tesla was seen smoking in New York?",
+    "expected_keywords": ["INSUFFICIENT CONTEXT"],
+    "expected_source_doc": "doc_01_nikola_tesla.txt"
+  },
+  {
+    "id": "q043",
+    "question": "What was the color of the ink Dmitri Mendeleev used to write his original 1869 periodic table?",
+    "expected_keywords": ["INSUFFICIENT CONTEXT"],
+    "expected_source_doc": "doc_03_dmitri_mendeleev.txt"
+  },
+  {
+    "id": "q044",
+    "question": "What was the name of the individual who sold Marie Curie the radium used in her final experiments?",
+    "expected_keywords": ["INSUFFICIENT CONTEXT"],
+    "expected_source_doc": "doc_10_marie_curie.txt"
+  },
+  {
+    "id": "q045",
+    "question": "What was Pasteur responsible for?",
+    "expected_keywords": ["INSUFFICIENT CONTEXT"],
+    "expected_source_doc": "doc_12_louis_pasteur.txt"
+  },
+  {
+    "id": "q046",
     "question": "In what year were Nikola Tesla's AC induction motor and related polyphase AC patents licensed by Westinghouse Electric?",
     "expected_keywords": ["1888"],
     "expected_source_doc": "doc_01_nikola_tesla.txt"
   },
   {
-    "id": "q002",
+    "id": "q047",
     "question": "On what date did Galileo demonstrate one of his early telescopes to Venetian lawmakers?",
     "expected_keywords": ["25 August 1609"],
     "expected_source_doc": "doc_02_galileo_galilei.txt"
   },
   {
-    "id": "q003",
+    "id": "q048",
     "question": "What name did Dmitri Mendeleev use to refer to the predicted element that was later identified as germanium?",
     "expected_keywords": ["ekasilicon"],
     "expected_source_doc": "doc_03_dmitri_mendeleev.txt"
   },
   {
-    "id": "q004",
+    "id": "q049",
     "question": "What disease did Erwin Schrödinger die of in Vienna in 1961?",
     "expected_keywords": ["tuberculosis"],
     "expected_source_doc": "doc_04_erwin_schrodinger.txt"
   },
   {
-    "id": "q005",
+    "id": "q050",
     "question": "What nickname was Thomas Edison known by because of his work at Menlo Park?",
     "expected_keywords": ["The Wizard of Menlo Park"],
     "expected_source_doc": "doc_11_thomas_edison.txt"
   }
+
 ]
