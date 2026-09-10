@@ -39,7 +39,7 @@
     "id": "q007",
     "question": "J. J. Thomson measured the charge of the electron to be what value in 1899?",
     "expected_keywords": ["6.8", "esu"],
-    "expected_source_doc": "doc_06_j.j._thomson.txt"
+    "expected_source_doc": "doc_06_j._j._thomson.txt"
   },
   {
     "id": "q008",
