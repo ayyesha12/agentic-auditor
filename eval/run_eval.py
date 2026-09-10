@@ -20,7 +20,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import OllamaEmbeddings
 from agents.graph import build_graph
 
-_embeddings = OllamaEmbeddings(model="qwen3:1.7b")
+_embeddings = OllamaEmbeddings(model="nomic-embed-text")
 _db = FAISS.load_local("data/faiss_index", _embeddings, allow_dangerous_deserialization=True)
 _graph = build_graph(_db)
 
