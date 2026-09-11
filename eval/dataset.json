@@ -99,7 +99,7 @@
     "id": "q017",
     "question": "What was the name of the Manchester suburb where J. J. Thomson lived on Wilmslow Road?",
     "expected_keywords": ["Withington"],
-    "expected_source_doc": "doc_06_j._j._thomson.txt"
+    "expected_source_doc": "doc_06_j.j._thomson.txt"
   },
   {
     "id": "q018",
@@ -159,7 +159,7 @@
     "id": "q027",
     "question": "What was the nickname of J. J. Thomson's atomic model?",
     "expected_keywords": ["plum pudding model"],
-    "expected_source_doc": "doc_06_j._j._thomson.txt"
+    "expected_source_doc": "doc_06_j.j._thomson.txt"
   },
   {
     "id": "q028",
@@ -220,7 +220,7 @@
     "id": "q037",
     "question": "Why did J. J. Thomson prefer the term 'corpuscle' over 'electron'?",
     "expected_keywords": ["it is my own child, and I have a kind of parental affection for it"],
-    "expected_source_doc": "doc_06_j._j._thomson.txt"
+    "expected_source_doc": "doc_06_j.j._thomson.txt"
   },
 {
     "id": "q038",
