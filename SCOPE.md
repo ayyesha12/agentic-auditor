@@ -7,7 +7,8 @@ Members: [Praih Alias Faiza and Ayesha ]
 
 - **Agents:** exactly 3 — Planner, Retriever, Critic
 - **Corpus:** [agree on a topic here, e.g. "20 Wikipedia articles about the Famous Scientist"]
-- **Eval set size:** 40–50 hand-verified Q&A pairs
+- **Eval set size:** 20 hand-verified Q&A pairs
+  (reduced from 50 due to CPU-only inference constraints — documented limitation)
 - **Models:** qwen3:1.7b for dev/testing, phi4-mini for final eval runs
 - **Task domain:** question answering over the fixed 20-doc corpus only
 

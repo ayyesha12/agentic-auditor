@@ -1,6 +1,6 @@
 import ollama
 
-JUDGE_MODEL = "phi4-mini"
+JUDGE_MODEL = "qwen3:1.7b"
 
 JUDGE_PROMPT_TEMPLATE = """You are a strict evaluation judge. Your job is to decide if an answer is correct and grounded in the provided context.
 

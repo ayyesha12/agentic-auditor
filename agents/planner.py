@@ -3,7 +3,7 @@ from agents.state import AgentState
 
 PLANNER_MODEL = "qwen3:1.7b"  # use faster model during development
 
-PLANNER_SYSTEM_PROMPT = """You are a research planner. Given a question, output 1-2 specific retrieval steps.
+PLANNER_SYSTEM_PROMPT = """You are a research planner. Given a question, output 1-2 retrieval steps.
 Each step should be a short phrase describing what information to look for.
 Output one step per line. Do not number the steps. Do not explain."""
 
