@@ -3,7 +3,7 @@ import sqlite3
 import pandas as pd
 
 conn = sqlite3.connect("logs/runs.db")
-df = pd.read_sql("SELECT * FROM runs WHERE version='v1'", conn)
+df = pd.read_sql("SELECT * FROM runs WHERE version='v2'", conn)
 conn.close()
 
 print(f"Total items: {len(df)}")
