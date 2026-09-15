@@ -182,4 +182,6 @@ examples, the expected improvement is:
 
 The resume-ready result sentence will be:
 > "Curating targeted few-shot examples in the Planner prompt improved
-> rule-based task-completion from 56% to XX% on a fixed 50-item eval set."
+> rule-based task-completion from 56% to XX% on a fixed 50-item eval set."git add notebooks/
+git commit -m "analysis: v1 eval results and failure patterns"
+git push origin feature/eval-v1-run

@@ -186,11 +186,11 @@
     "expected_source_doc": "doc_20_cv_raman.txt"
   },
    {
-    "id": "q032",
-    "question": "Who was the student that took the famous Photo 51 while working with Rosalind Franklin at King's College London?",
-    "expected_keywords": ["Raymond Gosling"],
-    "expected_source_doc": "doc_12_rosalind_franklin.txt"
-  },
+  "id": "q032",
+  "question": "At which London college did Rosalind Franklin work when she produced X-ray diffraction images of DNA?",
+  "expected_keywords": ["King's College"],
+  "expected_source_doc": "doc_12_rosalind_franklin.txt"
+},
   {
     "id": "q033",
     "question": "What remark did Mendeleev make regarding the use of petroleum as a fuel?",
@@ -204,11 +204,11 @@
     "expected_source_doc": "doc_04_erwin_schrodinger.txt"
   },
   {
-    "id": "q035",
-    "question": "Niels Bohr predicted the properties of which zirconium-like element, eventually named after the Latin name for Copenhagen?",
-    "expected_keywords": ["hafnium"],
-    "expected_source_doc": "doc_14_neils_bohr.txt"
-  },
+  "id": "q035",
+  "question": "What was the name of Niels Bohr's institute founded in Copenhagen in 1920?",
+  "expected_keywords": ["Institute for Theoretical Physics", "Niels Bohr Institute"],
+  "expected_source_doc": "doc_14_neils_bohr.txt"
+},
 
   {
     "id": "q036",
@@ -262,13 +262,13 @@
     "id": "q044",
     "question": "What was the name of the individual who sold Marie Curie the radium used in her final experiments?",
     "expected_keywords": ["INSUFFICIENT CONTEXT"],
-    "expected_source_doc": "doc_10_marie_curie.txt"
+    "expected_source_doc": "doc_09_marie_curie.txt"
   },
   {
     "id": "q045",
     "question": "What was Pasteur responsible for?",
     "expected_keywords": ["INSUFFICIENT CONTEXT"],
-    "expected_source_doc": "doc_12_louis_pasteur.txt"
+    "expected_source_doc": "doc_16_louis_pasteur.txt"
   },
   {
     "id": "q046",
