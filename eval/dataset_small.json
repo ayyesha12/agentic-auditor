@@ -1,0 +1,163 @@
+[
+  {
+    "id": "q001",
+    "question": "What was the name of Nikola Tesla's father?",
+    "expected_keywords": [
+      "Milutin Tesla"
+    ],
+    "expected_source_doc": "doc_01_nikola_tesla.txt"
+  },
+  {
+    "id": "q002",
+    "question": "Where was Galileo Galilei born?",
+    "expected_keywords": [
+      "Pisa"
+    ],
+    "expected_source_doc": "doc_02_galileo_galilei.txt"
+  },
+  {
+    "id": "q003",
+    "question": "Dmitri Mendeleev was the youngest of how many siblings?",
+    "expected_keywords": [
+      "17"
+    ],
+    "expected_source_doc": "doc_03_dmitri_mendeleev.txt"
+  },
+  {
+    "id": "q004",
+    "question": "In what year did Erwin Schrödinger share the Nobel Prize in Physics?",
+    "expected_keywords": [
+      "1933"
+    ],
+    "expected_source_doc": "doc_04_erwin_schrodinger.txt"
+  },
+  {
+    "id": "q005",
+    "question": "How many patents did Thomas Edison register in the United States?",
+    "expected_keywords": [
+      "1,093"
+    ],
+    "expected_source_doc": "doc_11_thomas_edison.txt"
+  },
+  {
+    "id": "q006",
+    "question": "Who was the daughter of Ernest Rutherford that married Ralph Fowler?",
+    "expected_keywords": [
+      "Eileen Mary"
+    ],
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
+  },
+  {
+    "id": "q007",
+    "question": "J. J. Thomson measured the charge of the electron to be what value in 1899?",
+    "expected_keywords": [
+      "6.8",
+      "esu"
+    ],
+    "expected_source_doc": "doc_06_j.j._thomson.txt"
+  },
+  {
+    "id": "q008",
+    "question": "What is the Latin title of Carl Linnaeus's first edition work published in the Netherlands?",
+    "expected_keywords": [
+      "Systema Naturae"
+    ],
+    "expected_source_doc": "doc_07_carl_linnaeus.txt"
+  },
+  {
+    "id": "q009",
+    "question": "In what year did Antoine Lavoisier recognize hydrogen as an element?",
+    "expected_keywords": [
+      "1783"
+    ],
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
+  },
+  {
+    "id": "q010",
+    "question": "What was the name of Marie Curie's daughter who was born in 1897?",
+    "expected_keywords": [
+      "Irène Joliot-Curie"
+    ],
+    "expected_source_doc": "doc_09_marie_curie.txt"
+  },
+  {
+    "id": "q011",
+    "question": "Nikola Tesla's mother, Đuka Mandić, had a talent for memorizing what type of poems?",
+    "expected_keywords": [
+      "Serbian epic poems"
+    ],
+    "expected_source_doc": "doc_01_nikola_tesla.txt"
+  },
+  {
+    "id": "q012",
+    "question": "How many children did Galileo father out of wedlock with Marina Gamba?",
+    "expected_keywords": [
+      "three"
+    ],
+    "expected_source_doc": "doc_02_galileo_galilei.txt"
+  },
+  {
+    "id": "q013",
+    "question": "Which predicted element did Mendeleev call 'ekasilicon'?",
+    "expected_keywords": [
+      "germanium"
+    ],
+    "expected_source_doc": "doc_03_dmitri_mendeleev.txt"
+  },
+  {
+    "id": "q014",
+    "question": "Erwin Schrödinger died of what disease in 1961?",
+    "expected_keywords": [
+      "tuberculosis"
+    ],
+    "expected_source_doc": "doc_04_erwin_schrodinger.txt"
+  },
+  {
+    "id": "q015",
+    "question": "Who was the student that took the famous Photo 51 while working with Rosalind Franklin at King's College London?",
+    "expected_keywords": [
+      "Raymond Gosling"
+    ],
+    "expected_source_doc": "doc_12_rosalind_franklin.txt"
+  },
+  {
+    "id": "q016",
+    "question": "Ernest Rutherford coined which term to describe the time required for half a radioactive sample to decay?",
+    "expected_keywords": [
+      "half-life"
+    ],
+    "expected_source_doc": "doc_05_ernest_rutherford.txt"
+  },
+  {
+    "id": "q017",
+    "question": "What was the name of the Manchester suburb where J. J. Thomson lived on Wilmslow Road?",
+    "expected_keywords": [
+      "Withington"
+    ],
+    "expected_source_doc": "doc_06_j.j._thomson.txt"
+  },
+  {
+    "id": "q018",
+    "question": "Which giant tree was the Latinate name 'Linnæus' derived from?",
+    "expected_keywords": [
+      "lime tree"
+    ],
+    "expected_source_doc": "doc_07_carl_linnaeus.txt"
+  },
+  {
+    "id": "q019",
+    "question": "What is the name of the tax-farming financial company Lavoisier joined at age 26?",
+    "expected_keywords": [
+      "Ferme générale"
+    ],
+    "expected_source_doc": "doc_08_antoine_lavoisier.txt"
+  },
+  {
+    "id": "q020",
+    "question": "Marie Curie was the first woman to become a professor at which university?",
+    "expected_keywords": [
+      "University of Paris"
+    ],
+    "expected_source_doc": "doc_09_marie_curie.txt"
+  }
+]
