@@ -1,0 +1,97 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "daysInterval": 31,
+              "triggerAtHour": 2
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        0
+      ],
+      "id": "ec5b23ce-0529-4298-a684-fed076795c42",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/run-eval?version=nightly",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        224,
+        0
+      ],
+      "id": "b1e9f287-326e-4feb-b2b7-55ada5bf4737",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "operation": "sendAndWait",
+        "fromEmail": "ayeshamemon192003@gmail.com",
+        "toEmail": "ayeshamemon.bscsf22@iba-suk.edu.pk",
+        "subject": "Nightly Eval Complete",
+        "message": "Nightly eval complete. Version: nightly ",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        592,
+        144
+      ],
+      "id": "758e64e3-1c1f-476c-a66c-deb280e18294",
+      "name": "Send an Email",
+      "webhookId": "ecb69604-5206-46b3-8b89-506eb0333ae7",
+      "credentials": {
+        "smtp": {
+          "id": "8stMHOsj9edzHeFq",
+          "name": "SMTP account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Send an Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "e3082742-5a6e-4298-95f6-3b6275522685",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "c9c232df55c1e52a748b5a5af5392f9ca1a8e890801917c04e407be9115edc21"
+  },
+  "nodeGroups": [],
+  "id": "ZTrUgTayz3nodSmP",
+  "tags": []
+}
